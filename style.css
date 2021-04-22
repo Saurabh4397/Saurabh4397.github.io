@@ -1,0 +1,108 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  clear: both;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#UI_Theme_button {
+  margin-bottom: 0;
+  float: right;
+  margin-right: 20px;
+  margin-top: 12px;
+  background-color: #1c1c1c;
+  padding: 10px 20px 8px 20px;
+  color: whitesmoke;
+  border-radius: 12px;
+  outline: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  cursor: pointer; }
+
+.main_container {
+  background-color: blueviolet;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  border-radius: 10px;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  margin: auto; }
+
+#screen {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 20%;
+  border-radius: 10px;
+  background-color: white; }
+  #screen #expression {
+    font-size: 12px;
+    color: gray; }
+  #screen p {
+    position: relative;
+    padding-right: 25px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-bottom: auto;
+    clear: both;
+    margin-top: 0; }
+  #screen #show_ans {
+    padding-top: 8%; }
+
+.NumPad {
+  position: relative;
+  border-radius: 10px;
+  float: left;
+  margin: 20px 0px 0px 25px;
+  background-color: white;
+  height: 70%;
+  width: 60%; }
+
+.ControlKeys {
+  position: relative;
+  border-radius: 10px;
+  float: right;
+  width: 25%;
+  height: 70%;
+  background-color: white;
+  margin: 20px 25px 0px 20px; }
+
+#control_key {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  #control_key td {
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; }
+
+#num_pad {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+  #num_pad td {
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px; }
+
+td:hover {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
